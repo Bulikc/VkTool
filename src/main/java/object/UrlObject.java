@@ -1,15 +1,15 @@
 package object;
 
-public class Market {
+public class UrlObject {
     private int idMarket;
     private int idAlbum;
 
-    public Market(int idMarket, int idAlbum) {
+    public UrlObject(int idMarket, int idAlbum) {
         this.idMarket = idMarket;
         this.idAlbum = idAlbum;
     }
 
-    public Market() {
+    public UrlObject() {
     }
 
     public int getIdMarket() {
